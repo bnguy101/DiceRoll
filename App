@@ -1,0 +1,11 @@
+//Benny Nguyen 
+import java.util.Scanner;
+
+public class App {
+public static void main(String[] args) {
+    // Create a random number generator between 1 - 6 for the dice
+    int dice = (int) (6 * Math.random()) + 1;
+    System.out.println("The dice number is " +  dice);
+    }
+
+}
